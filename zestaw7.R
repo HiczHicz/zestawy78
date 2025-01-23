@@ -100,7 +100,6 @@ cat("Najdłuższy okres spadków: długość =", ciag_spadek$dlugosc,
 ############# nie działa to jak coś ale mniej więcej
 
 
-
 zmiany <- diff(produkcja) > 0
 which.max(rle(zmiany)$lengths)
 
